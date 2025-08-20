@@ -33,9 +33,9 @@ const projects: Project[] = [
     technologies: ["React", "Node.js", "Express"],
     icon: "🍽️",
     // TODO: Replace with actual GitHub repository URL for Foodies Hub project
-    githubUrl: "#",
+    githubUrl: "https://github.com/Toludayo75/Foodies-Hub",
     // TODO: Replace with actual live demo URL for Foodies Hub project
-    liveUrl: "#"
+    liveUrl: "https://foodies-hub-nevu.onrender.com"
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript", "Flask"],
     icon: "🌐",
     // TODO: Replace with actual GitHub repository URL for Allergen Web project
-    githubUrl: "#",
+    githubUrl: "https://github.com/Toludayo75/final-allergen",
     // TODO: Replace with actual live demo URL for Allergen Web project
     liveUrl: "#"
   },
@@ -77,9 +77,9 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript"],
     icon: "🏥",
     // TODO: Replace with actual GitHub repository URL for Jubilee Hospital Website project
-    githubUrl: "#",
+    githubUrl: "https://github.com/Toludayo75/Jubilee-Hospital",
     // TODO: Replace with actual live demo URL for Jubilee Hospital Website project
-    liveUrl: "#"
+    liveUrl: "https://jubilee-hospital.netlify.app/"
   },
   {
     id: 7,
@@ -165,16 +165,20 @@ export default function Projects() {
                 
                 <div className="flex space-x-4">
                   {project.githubUrl && (
-                    <Button variant="ghost" size="sm" className="text-blue-400 hover:text-blue-300 p-0 magnetic">
-                      <Github size={16} className="mr-1" />
-                      GitHub
-                    </Button>
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="sm" className="text-blue-400 hover:text-blue-300 p-0 magnetic">
+                        <Github size={16} className="mr-1" />
+                        GitHub
+                      </Button>
+                    </a>
                   )}
                   {project.liveUrl && (
-                    <Button variant="ghost" size="sm" className="text-blue-400 hover:text-blue-300 p-0 magnetic">
-                      <ExternalLink size={16} className="mr-1" />
-                      Live Demo
-                    </Button>
+                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="sm" className="text-blue-400 hover:text-blue-300 p-0 magnetic">
+                        <ExternalLink size={16} className="mr-1" />
+                        Live Demo
+                      </Button>
+                    </a>
                   )}
                 </div>
               </CardContent>

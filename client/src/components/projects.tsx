@@ -116,14 +116,14 @@ const projects: Project[] = [
   },
   {
     id: 10,
-    title: "Portfolio Website",
+    title: "Farouq Portfolio Website",
     description: "A modern, responsive portfolio website showcasing projects and skills. Features smooth animations, dark mode, and optimized performance. Built with React and Tailwind CSS.",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
     icon: "💼",
     // TODO: Replace with actual GitHub repository URL for Portfolio Website project
-    githubUrl: "#",
+    githubUrl: "https://github.com/Toludayo75/Farouq-Portfolio",
     // TODO: Replace with actual live demo URL for Portfolio Website project
-    liveUrl: "#"
+    liveUrl: "https://farouqportfolio.netlify.app/"
   }
 ];
 

@@ -31,6 +31,10 @@ const projects: Project[] = [
     title: "Foodies Hub",
     description: "A full-featured food discovery and ordering app built for local vendors. Includes user login, food category filtering, and cart management. Built with React, Node.js, and Express.",
     technologies: ["React", "Node.js", "Express"],
+    Login credentials:
+    - Admin: admin@foodapp.com / admin123
+    - Rider: rider@foodapp.com / rider123
+    - Customer: test@example.com / password123
     icon: "🍽️",
     // TODO: Replace with actual GitHub repository URL for Foodies Hub project
     githubUrl: "https://github.com/Toludayo75/Foodies-Hub",

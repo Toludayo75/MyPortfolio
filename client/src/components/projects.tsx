@@ -22,9 +22,9 @@ const projects: Project[] = [
     technologies: ["Flask", "MySQL", "Bootstrap"],
     icon: "🔬",
     // TODO: Replace with actual GitHub repository URL for Medverify project
-    githubUrl: "#",
+    githubUrl: "https://github.com/Toludayo75/Medverify",
     // TODO: Replace with actual live demo URL for Medverify project
-    liveUrl: "#"
+    liveUrl: "https://medverify.onrender.com/"
   },
   {
     id: 2,

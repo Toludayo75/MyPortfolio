@@ -70,9 +70,9 @@ const projects: Project[] = [
     technologies: ["React", "Node.js", "PostgreSQL"],
     icon: "⏱️",
     // TODO: Replace with actual GitHub repository URL for PhysioScheduler project
-    githubUrl: "#",
+    githubUrl: "https://github.com/theyeesha/physioreact",
     // TODO: Replace with actual live demo URL for PhysioScheduler project
-    liveUrl: "#"
+    liveUrl: "https://physioreact.onrender.com"
   },
   {
     id: 6,

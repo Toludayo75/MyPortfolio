@@ -22,7 +22,7 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-card/30 relative overflow-hidden">
       <div className="parallax-bg"></div>
       <div ref={ref} className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className={`text-4xl md:text-5xl font-bold mb-12 text-white fade-in ${isVisible ? 'visible' : ''}`}>
+        <h2 className={`text-4xl md:text-5xl font-bold mb-12 text-black fade-in ${isVisible ? 'visible' : ''}`}>
           Let's Work Together
         </h2>
         <p className={`text-xl text-gray-300 mb-12 slide-up ${isVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s' }}>

@@ -135,7 +135,7 @@ export default function Projects() {
       <div className="parallax-bg"></div>
       <div ref={ref} className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className={`text-4xl md:text-5xl font-bold mb-6 text-white fade-in ${isVisible ? 'visible' : ''}`}>
+          <h2 className={`text-4xl md:text-5xl font-bold mb-6 text-black fade-in ${isVisible ? 'visible' : ''}`}>
             Featured Projects
           </h2>
           <p className={`text-xl text-gray-300 slide-up ${isVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s' }}>

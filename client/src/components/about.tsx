@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="py-20 bg-card/30 relative overflow-hidden">
       <div className="parallax-bg"></div>
       <div ref={ref} className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className={`text-4xl md:text-6xl font-bold mb-12 text-white fade-in ${isVisible ? 'visible' : ''}`}>
+        <h2 className={`text-4xl md:text-6xl font-bold mb-12 text-black fade-in ${isVisible ? 'visible' : ''}`}>
           Innovation. Precision. <span className="text-blue-400">Excellence</span>
         </h2>
         <div className="text-lg md:text-xl text-gray-300 leading-relaxed space-y-6">

@@ -43,7 +43,7 @@ export default function Hero() {
       <div className="parallax-bg"></div>
       <div ref={ref} className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div className={`space-y-6 fade-in ${isVisible ? 'visible' : ''}`}>
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white min-h-[200px]">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight text-black min-h-[200px]">
             <span className="inline-block">
               {displayText.split("Code").map((part, index) => (
                 <span key={index}>

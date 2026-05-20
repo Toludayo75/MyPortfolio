@@ -12,7 +12,7 @@ import ScrollToTop from "@/components/scroll-to-top";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-dark-bg text-white">
+    <div className="min-h-screen bg-white text-black">
       <ScrollProgress />
       <Header />
       <Hero />
